@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="640" height="360" shape-rendering="crispEdges">
+  <title>Cozy pixel room with a pug</title>
+  <style>
+    .star  { animation: twinkle 3s infinite; }
+    .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.6s; } .s4 { animation-delay: 2.3s; }
+    @keyframes twinkle { 0%,100% { opacity: 1; } 50% { opacity: .2; } }
+
+    .code { transform-box: fill-box; transform-origin: left; animation: type 8s infinite both; }
+    .c2 { animation-delay: .6s; } .c3 { animation-delay: 1.2s; } .c4 { animation-delay: 1.8s; } .c5 { animation-delay: 2.4s; } .c6 { animation-delay: 3s; }
+    @keyframes type { 0% { transform: scaleX(0); } 8% { transform: scaleX(1); } 88% { transform: scaleX(1); } 92%,100% { transform: scaleX(0); } }
+
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .ember { animation: ember 2.4s infinite; }
+    @keyframes ember { 0%,100% { fill: #FF8A4C; } 50% { fill: #FFD2A6; } }
+
+    .puff { animation: rise 3s infinite linear; opacity: 0; }
+    .p2 { animation-delay: 1s; } .p3 { animation-delay: 2s; }
+    @keyframes rise { 0% { transform: translate(0,0); opacity: .8; } 100% { transform: translate(3px,-12px); opacity: 0; } }
+
+    .lids { animation: lids 4.5s infinite; opacity: 0; }
+    @keyframes lids { 0%,90% { opacity: 0; } 91%,95% { opacity: 1; } 96%,100% { opacity: 0; } }
+
+    .glow { animation: glow 4s infinite; }
+    @keyframes glow { 0%,100% { opacity: .16; } 45% { opacity: .22; } 50% { opacity: .12; } 55% { opacity: .2; } }
+  </style>
+  <defs>
+    <clipPath id="r"><rect width="160" height="90" rx="4"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#r)">
+    <!-- wall -->
+    <rect width="160" height="90" fill="#241A22"/>
+
+    <!-- tiles (avatar bathroom pink) -->
+    <rect y="56" width="160" height="18" fill="#C8957A"/>
+    <g fill="#A8775F">
+      <rect y="56" width="160" height="1"/><rect y="62" width="160" height="1"/><rect y="68" width="160" height="1"/>
+      <rect x="6" y="56" width="1" height="18"/><rect x="13" y="56" width="1" height="18"/><rect x="20" y="56" width="1" height="18"/>
+      <rect x="27" y="56" width="1" height="18"/><rect x="34" y="56" width="1" height="18"/><rect x="41" y="56" width="1" height="18"/>
+      <rect x="48" y="56" width="1" height="18"/><rect x="55" y="56" width="1" height="18"/><rect x="62" y="56" width="1" height="18"/>
+      <rect x="69" y="56" width="1" height="18"/><rect x="76" y="56" width="1" height="18"/><rect x="83" y="56" width="1" height="18"/>
+      <rect x="90" y="56" width="1" height="18"/><rect x="97" y="56" width="1" height="18"/><rect x="104" y="56" width="1" height="18"/>
+      <rect x="111" y="56" width="1" height="18"/><rect x="118" y="56" width="1" height="18"/><rect x="125" y="56" width="1" height="18"/>
+      <rect x="132" y="56" width="1" height="18"/><rect x="139" y="56" width="1" height="18"/><rect x="146" y="56" width="1" height="18"/>
+      <rect x="153" y="56" width="1" height="18"/>
+    </g>
+    <rect y="55" width="160" height="1" fill="#E8B48A"/>
+
+    <!-- floor -->
+    <rect y="74" width="160" height="16" fill="#4A3226"/>
+    <g fill="#3D291F">
+      <rect y="74" width="160" height="1"/><rect y="80" width="160" height="1"/><rect y="86" width="160" height="1"/>
+      <rect x="22" y="75" width="1" height="5"/><rect x="61" y="75" width="1" height="5"/><rect x="104" y="75" width="1" height="5"/>
+      <rect x="40" y="81" width="1" height="5"/><rect x="88" y="81" width="1" height="5"/><rect x="131" y="81" width="1" height="5"/>
+    </g>
+
+    <!-- window -->
+    <rect x="14" y="12" width="30" height="26" fill="#8B5E3C"/>
+    <rect x="16" y="14" width="26" height="22" fill="#1B1830"/>
+    <rect x="34" y="16" width="4" height="4" fill="#F3E3CF"/><rect x="34" y="16" width="1" height="1" fill="#1B1830"/><rect x="37" y="19" width="1" height="1" fill="#1B1830"/>
+    <rect class="star"    x="19" y="17" width="1" height="1" fill="#F3E3CF"/>
+    <rect class="star s2" x="24" y="29" width="1" height="1" fill="#F3E3CF"/>
+    <rect class="star s3" x="38" y="30" width="1" height="1" fill="#E8B48A"/>
+    <rect class="star s4" x="21" y="32" width="1" height="1" fill="#FF8A4C"/>
+    <rect class="star s3" x="32" y="27" width="1" height="1" fill="#F3E3CF"/>
+    <rect x="28" y="14" width="2" height="22" fill="#8B5E3C"/>
+    <rect x="16" y="24" width="26" height="2" fill="#8B5E3C"/>
+    <rect x="12" y="38" width="34" height="2" fill="#6B4630"/>
+
+    <!-- shelf with books and plant -->
+    <rect x="136" y="22" width="20" height="2" fill="#8B5E3C"/>
+    <rect x="140" y="15" width="2" height="7" fill="#E8B48A"/>
+    <rect x="142" y="16" width="2" height="6" fill="#FF8A4C"/>
+    <rect x="144" y="14" width="2" height="8" fill="#F3E3CF"/>
+    <rect x="149" y="18" width="5" height="4" fill="#C8957A"/>
+    <rect x="150" y="14" width="1" height="4" fill="#8FA88A"/><rect x="152" y="13" width="1" height="5" fill="#8FA88A"/><rect x="148" y="15" width="2" height="1" fill="#8FA88A"/><rect x="153" y="15" width="2" height="1" fill="#8FA88A"/>
+
+    <!-- lamp + light cone -->
+    <polygon class="glow" points="80,18 89,18 108,54 62,54" fill="#FFB37A"/>
+    <rect x="84" y="0" width="1" height="14" fill="#3A2A33"/>
+    <rect x="80" y="14" width="9" height="4" fill="#8B5E3C"/>
+    <rect x="81" y="13" width="7" height="1" fill="#8B5E3C"/>
+    <rect x="83" y="18" width="3" height="1" fill="#FF8A4C"/>
+
+    <!-- desk -->
+    <rect x="74" y="54" width="80" height="3" fill="#8B5E3C"/>
+    <rect x="74" y="57" width="80" height="1" fill="#6B4630"/>
+    <rect x="77" y="58" width="3" height="16" fill="#6B4630"/>
+    <rect x="148" y="58" width="3" height="16" fill="#6B4630"/>
+
+    <!-- monitor -->
+    <rect x="92" y="30" width="40" height="22" fill="#3A2A33"/>
+    <rect x="94" y="32" width="36" height="17" fill="#150F1A"/>
+    <rect x="109" y="52" width="6" height="1" fill="#3A2A33"/>
+    <rect x="105" y="53" width="14" height="1" fill="#3A2A33"/>
+    <rect x="96" y="33" width="3" height="1" fill="#FF8A4C"/><rect x="100" y="33" width="3" height="1" fill="#FF8A4C"/><rect x="104" y="33" width="3" height="1" fill="#FF8A4C"/>
+    <rect class="code"    x="96"  y="36" width="10" height="1" fill="#E8B48A"/>
+    <rect class="code c2" x="99"  y="38" width="16" height="1" fill="#F3E3CF"/>
+    <rect class="code c3" x="99"  y="40" width="12" height="1" fill="#FF8A4C"/>
+    <rect class="code c4" x="102" y="42" width="18" height="1" fill="#CDB8A6"/>
+    <rect class="code c5" x="99"  y="44" width="8"  height="1" fill="#E8B48A"/>
+    <rect class="code c6" x="96"  y="46" width="14" height="1" fill="#F3E3CF"/>
+    <rect class="cursor"  x="111" y="46" width="1"  height="1" fill="#F3E3CF"/>
+
+    <!-- keyboard -->
+    <rect x="96" y="53" width="8" height="1" fill="#CDB8A6"/>
+
+    <!-- mug + steam -->
+    <rect x="138" y="49" width="5" height="5" fill="#E8B48A"/>
+    <rect x="143" y="50" width="1" height="3" fill="#E8B48A"/>
+    <rect x="139" y="49" width="3" height="1" fill="#8B5E3C"/>
+    <rect class="puff"    x="139" y="46" width="1" height="1" fill="#CFC3C8"/>
+    <rect class="puff p2" x="141" y="45" width="1" height="1" fill="#CFC3C8"/>
+    <rect class="puff p3" x="140" y="46" width="1" height="1" fill="#CFC3C8"/>
+
+    <!-- cushion -->
+    <rect x="45" y="72" width="26" height="5" fill="#E8B48A"/>
+    <rect x="45" y="76" width="26" height="1" fill="#C8957A"/>
+    <rect x="44" y="73" width="1" height="3" fill="#E8B48A"/><rect x="71" y="73" width="1" height="3" fill="#E8B48A"/>
+
+    <!-- pug -->
+    <rect x="51" y="62" width="14" height="11" fill="#F3E3CF"/>
+    <rect x="50" y="64" width="16" height="8" fill="#F3E3CF"/>
+    <rect x="55" y="64" width="6" height="7" fill="#FBF1E4"/>
+    <rect x="52" y="71" width="4" height="2" fill="#E2CDB4"/><rect x="60" y="71" width="4" height="2" fill="#E2CDB4"/>
+    <!-- head -->
+    <rect x="49" y="48" width="18" height="15" fill="#F3E3CF"/>
+    <rect x="48" y="50" width="20" height="11" fill="#F3E3CF"/>
+    <rect x="56" y="50" width="4" height="1" fill="#E2CDB4"/><rect x="55" y="51" width="6" height="1" fill="#E2CDB4"/>
+    <!-- ears -->
+    <rect x="47" y="48" width="4" height="4" fill="#3B2B2B"/><rect x="65" y="48" width="4" height="4" fill="#3B2B2B"/>
+    <rect x="46" y="49" width="1" height="2" fill="#3B2B2B"/><rect x="69" y="49" width="1" height="2" fill="#3B2B2B"/>
+    <!-- eyes -->
+    <rect x="52" y="52" width="3" height="3" fill="#1E1418"/><rect x="61" y="52" width="3" height="3" fill="#1E1418"/>
+    <rect x="53" y="52" width="1" height="1" fill="#FFFFFF"/><rect x="62" y="52" width="1" height="1" fill="#FFFFFF"/>
+    <g class="lids">
+      <rect x="52" y="52" width="3" height="3" fill="#F3E3CF"/><rect x="61" y="52" width="3" height="3" fill="#F3E3CF"/>
+      <rect x="52" y="54" width="3" height="1" fill="#1E1418"/><rect x="61" y="54" width="3" height="1" fill="#1E1418"/>
+    </g>
+    <!-- muzzle -->
+    <rect x="53" y="55" width="10" height="6" fill="#3B2B2B"/>
+    <rect x="54" y="61" width="8" height="1" fill="#3B2B2B"/>
+    <rect x="57" y="56" width="2" height="1" fill="#1E1418"/>
+    <rect x="56" y="58" width="4" height="1" fill="#2A1E1E"/>
+    <!-- cigar -->
+    <rect x="62" y="59" width="7" height="2" fill="#8B5E3C"/>
+    <rect x="64" y="59" width="1" height="2" fill="#E8B48A"/>
+    <rect class="ember" x="69" y="59" width="2" height="2" fill="#FF8A4C"/>
+    <rect class="puff"    x="70" y="56" width="1" height="1" fill="#CFC3C8"/>
+    <rect class="puff p2" x="71" y="55" width="1" height="1" fill="#CFC3C8"/>
+    <rect class="puff p3" x="70" y="54" width="1" height="1" fill="#CFC3C8"/>
+  </g>
+</svg>
