@@ -1,4 +1,4 @@
-<h1 align="center">am4ex / professional bug creator</h1>
+<h1 align="center">am4ex / dev</h1>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,py,js,react&theme=dark" alt="C++, Python, JavaScript, React" />
