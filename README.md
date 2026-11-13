@@ -1,7 +1,7 @@
 <h1 align="center">am4ex / dev</h1>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,py,js,react&theme=dark" alt="C++, Python, JavaScript, React" />
+  <img src="https://skillicons.dev/icons?i=cpp,py,js,react,qt&theme=dark" alt="C++, Python, JavaScript, React, Qt/QML" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=vscode,pycharm&theme=dark" alt="VS Code, PyCharm" />
